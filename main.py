@@ -1,6 +1,5 @@
 #main file for space_smash game
 
-
 import pygame
 from pygame.sprite import Group
 #from aesteroid import Aesteroid
@@ -17,7 +16,7 @@ def run_game():
     pygame.init() #initializes the necessary BG settings for pygame to run.
     ss_settings = Settings() #making instance of settings class to access settings
     screen = pygame.display.set_mode((ss_settings.screen_width, ss_settings.screen_height))
-    pygame.display.set_caption("Smash Up") #sets the title of game.
+    pygame.display.set_caption("Smash It!") #sets the title of game.
 
     #make the play button
     play_button = Button(ss_settings=ss_settings, screen=screen, msg="PLAY")
